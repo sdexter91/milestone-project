@@ -1,0 +1,125 @@
+/***** BASE STYLES *****/
+
+body {
+	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+	padding: 20px 110px;
+	}
+
+/***** GRID *****/
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.half-width {
+	width: 600px;
+	float: left;
+}
+
+.third-width {
+	width: 370px;
+	float: left;
+}
+
+/***** HEADER *****/
+
+
+header h1 {
+	text-transform: uppercase;
+	font-weight: 700px;
+	font-size: 30px;
+}
+
+header h1 span {
+	color: #77A466;
+}
+
+nav {
+	float: right;
+}
+
+nav ul li {
+	color: #77A466;
+	text-transform: uppercase;
+	list-style: none;
+	display: inline-block;
+	padding-left: 22px;
+	padding-top: 10px;
+	font-size: 14px;
+	font-weight: bolder;
+
+/****font-weight not working***/
+
+}
+
+header img {
+	border-top: solid 3px #77A466;
+	border-bottom: solid 3px #77A466;
+	margin-top: 15px;
+}
+
+
+/***** MAIN *****/
+main h2 {
+	text-transform: uppercase;
+	color: #77A466;
+	font-size: 18px;
+	padding-top: 10px;
+}
+
+main p {
+	line-height: 25px;
+	padding-top: 10px;
+}
+
+main h3 {
+	text-transform: uppercase;
+	font-size: 12px;
+	padding-top: 15px;
+}
+
+main ul{
+	list-style: none;
+	color: #77A466;
+	padding-left: 0;
+	padding-top: 10px;
+	line-height: 40px;
+}
+
+main #information {
+	border-top: solid #EEEEEE 1px;
+}
+
+main #review {
+	border-left: solid #EEEEEE 1px;
+	font-weight: lighter;
+	font-size: 16px;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+main #contact {
+	padding-left: 20px;
+	border-left: solid #EEEEEE 1px;
+}
+
+/***** FOOTER *****/
+
+footer p {
+	text-transform: uppercase;
+	text-align: center;
+	clear: both;
+	border-top: solid #EEEEEE 3px;
+	font-weight: bold;
+	padding-top: 15px;
+	font-size: 12px;
+}
+
+footer p span {
+	color: #77A466;
+	font-family: 'Oleo Script Swash Caps', cursive;
+	text-transform: lowercase;
+}
+
+
+

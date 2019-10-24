@@ -1,0 +1,186 @@
+/***** BASE STYLES *****/
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	color: #303316;
+}
+
+#header {
+	height: 800px;
+}
+
+#work {
+	height: 1450px;
+}
+
+#about {
+	height: 650px;
+}
+
+#contact {
+	height: 400px;
+}
+
+/***** GRID *****/
+
+.full-width {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.half-width {
+	width: 600px;
+}
+
+.third-width {
+	width: 400px;
+	float: left;
+}
+
+/***** HEADER *****/
+
+header {
+	height: 800px;
+	background: url(../img/desk.jpg);
+	background-size: cover;
+}
+
+header h1 {
+	margin: 0;
+	padding: 300px 0px 0px 0px;
+	font-family: 'Quicksand', bold, sans-serif;
+	font-size: 60px;
+	color: #A3B899;
+	text-align: center;
+}
+
+header h2 {
+	font-size: 48px;
+	text-align: center;
+	font-weight: 300; 
+}
+
+/***** WORK *****/
+
+#work {
+	background-color: #CBD1C5; 
+}
+
+#work h3 {
+	text-align: center;
+	margin: 0;
+	font-size: 36px;
+	padding: 30px 0 10px 0;
+}
+
+#work img {
+	height: 100%;
+	width: 100%;
+	padding: 35px 0;
+}
+
+#work #holstee {
+	height: 35%;
+	width: 35%;
+	padding: 35px 195px;
+}
+
+#work .half-width {
+	float: left;
+}
+
+#work p {
+	font-size: 24px;
+	line-height: 12px;
+	padding-left: 70px;
+}
+
+#work .light {
+	font-weight: 300;
+	padding-bottom: 300px;
+}
+
+#work #project-titles {
+	padding-top: 20px;
+}
+
+/***** ABOUT *****/
+
+#about {
+	background-color: #A3B899;
+}
+
+#about h3 {
+	text-align: center;
+	margin: 0;
+	font-size: 36px;
+	padding: 30px 0 10px 0;
+}
+
+#about img {
+	height: 50%;
+	width: 50%;
+	padding-top: 35px;
+	padding-left: 90px;
+}
+
+#about .half-width {
+	float: left;
+}
+
+#about p {
+	padding: 10px 0;
+	font-size: 18px;
+}
+
+#about ul {
+	font-size: 16px;
+}
+
+#about p .bold {
+	font-weight: 700;
+}
+/***** CONTACT *****/
+
+#contact {
+	background-color: #F1D5BF;
+}
+
+#contact h3 {
+	text-align: center;
+	margin: 0;
+	font-size: 36px;
+	padding: 30px 0 90px 0;
+}
+
+#contact p {
+	text-align: center;
+	font-size: 18px;
+}
+
+#contact p .bold {
+	font-weight: 700;
+}
+
+#contact img {
+	height: 50px;
+	width: 50px;
+	padding: 0 10px;
+}
+
+#contact #icons {
+	padding-left: 90px;
+}
+
+/***** FOOTER *****/
+
+footer {
+	background-color: #F1D5BF;
+}
+
+footer p {
+	text-align: center;
+	margin: 0;
+	padding-bottom: 10px;
+}
+
